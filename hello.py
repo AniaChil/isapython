@@ -26,6 +26,14 @@ ex = "!"
 sign = hello +" "+ world + ex
 print(sign)
 
-name = input ("Jak masz na imię?")
-print(hello + " " + name + ex)
+name = input("Jak masz na imię?").capitalize()
+name = name.upper()
+greeting =hello.upper() + " " + name.lower() + ex.upper()
+#print(greeting)
+#print(greeting[:])
+print(len(greeting))  #11
+#print(greeting[:len(greeting)-2]) # wyswietli 11-2
+print(greeting[12])
 
+#number = "3"
+#print(number.isnumeric())
