@@ -26,14 +26,26 @@ ex = "!"
 sign = hello +" "+ world + ex
 print(sign)
 
-name = input("Jak masz na imię?").capitalize()
-name = name.upper()
-greeting =hello.upper() + " " + name.lower() + ex.upper()
+#name = input("Jak masz na imię?").capitalize()
+#name = name.upper()
+#greeting =hello.upper() + " " + name.lower() + ex.upper()
 #print(greeting)
 #print(greeting[:])
-print(len(greeting))  #11
+#print(len(greeting))  #11
 #print(greeting[:len(greeting)-2]) # wyswietli 11-2
-print(greeting[12])
+#print(greeting[12])
 
 #number = "3"
 #print(number.isnumeric())
+
+sentence = "ala ma kota"
+#print("ala" in sentence)
+print(type(sentence) is float)
+
+birthyear ="1990"
+birthyear = int(birthyear)
+print(birthyear)
+print(type(str(6)))
+
+print(type(bool(0)))
+print()
